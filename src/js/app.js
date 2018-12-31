@@ -116,7 +116,7 @@ App = {
       var no_search_show = $('no_search_show');
       if(example[0] == 9999 && example[2] == 9999 && example[3] == 9999){
         console.log("no goods")
-        petsRow.append("<div id='no_search_show'><label id='text-center'>对不起，没有搜索到您要着得货物</label></div>");
+        petsRow.append("<div id='no_search_show'><label id='no_result'>对不起，没有搜索到您要找的货物!</label></div>");
       } else {
         petTemplate.find('.panel-title').text(example[0]);
         var namestring = "images/"+ example[1] + ".jpeg";
