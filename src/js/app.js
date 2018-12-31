@@ -53,6 +53,7 @@ App = {
     $(document).on('click', '#submit-goods-info',App.addGoods);
     $(document).on('click', '#search_button',App.searchGoods);
     $(document).on('click', '#reset_button',App.resetGoods);
+    $(document).on('click', '#change_button',App.changeGoods);
   },
   
   addGoods : async function(){
@@ -176,6 +177,10 @@ App = {
       // console.log(num);
 
     })
+  },
+
+  changeGoods : function(){
+    window.open('change.html');
   }
 
 };

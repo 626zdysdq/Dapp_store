@@ -13,7 +13,7 @@ body {
     font-size: 35px;
 }
 
-.Add, #no_search_show {
+.Add, #no_search_show , .Change{
     text-align: center;
     margin: 20px;
 }
